@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+} */
+
+/* img {
+    display: block;
+} */
+
+.navbar {
+
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+}
+.navbar span {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+/* -------------------------------------- */
+
+/* Task 1 */
+/* @media screen and (width < 600px) {
+    .container {
+        background-color: lightblue;
+    }
+}  
+@media screen and (min-width : 600px) and (width <= 1024px) {
+    .container {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (width > 1024px) {
+    .container {
+        background-color: lightgray;
+    }
+} */
+
+/* -------------------------------------- */
+
+/* Task 2 */
+/* @media screen and (width < 500px) {
+    h1 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (width >= 500px) and (width < 800px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (width >= 800px) {
+    h1 {
+        font-size: 32px;
+    }
+} */
+
+/* -------------------------------------- */
+
+/* Task 3 */
+/* @media screen and (orientation : portrait) {
+    div {
+        background-color: red;
+    }
+}
+
+@media screen and (orientation : landscape) {
+    div {
+        background-color: blue;
+    }
+} */
+
+/* -------------------------------------- */
+
+/* Task 4 */
+/* @media screen and (width < 768px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (width >= 768px) {
+    img {
+        width: 50%;
+    }
+} */
+
+/* Task 5 */
+@media screen and (width < 600px) {
+    .navbar span {
+        flex-direction: column;
+        /* display: block; */
+    }
+}
+
+@media screen and (width >= 600px) {
+    .navbar span {
+        flex-direction: row;
+        /* display: inline-block; */
+    }
+}
